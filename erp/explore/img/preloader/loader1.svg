@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="egu6kZbeQl11" text-rendering="geometricPrecision" shape-rendering="geometricPrecision"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 700 400"
+	 style="enable-background:new 0 0 700 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#222222;stroke-width:1.754;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F3C409;stroke-width:6;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#F3C409;stroke-width:6;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#F3C409;stroke-width:6;stroke-miterlimit:2.2055;}
+	
+		.st4{fill:none;stroke:#000000;stroke-width:1.7329;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:1.5754,7.8768,6.3014,4.7261;stroke-dashoffset:4;}
+</style>
+<style>
+    <![CDATA[
+    #egu6kZbeQl17_to {
+      animation: egu6kZbeQl17_to__to 800ms linear infinite normal forwards
+    }
+
+    @keyframes egu6kZbeQl17_to__to {
+      0% {
+        transform: translate(0.000368px, -0.000006px)
+      }
+
+      16.666667% {
+        transform: translate(0.000368px, 6.212963px)
+      }
+
+      33.333333% {
+        transform: translate(0.000368px, -0.000006px)
+      }
+
+      50% {
+        transform: translate(0.000368px, 6.212963px)
+      }
+
+      66.666667% {
+        transform: translate(0.000368px, -0.000006px)
+      }
+
+      83.333333% {
+        transform: translate(0.000368px, 6.212963px)
+      }
+
+      100% {
+        transform: translate(0.000368px, -0.000006px)
+      }
+    }
+
+    #egu6kZbeQl113 {
+      animation: egu6kZbeQl113_s_do 800ms linear infinite normal forwards
+    }
+
+    @keyframes egu6kZbeQl113_s_do {
+      0% {
+        stroke-dashoffset: 26.775
+      }
+
+      100% {
+        stroke-dashoffset: 157
+      }
+    }
+    ]]>
+  </style>
+<g id="egu6kZbeQl12" transform="matrix(0.157536 0 0 0.157536 300.37616 164.678418)">
+	<g id="egu6kZbeQl13" transform="matrix(1 0 0 1 39.278381 -100.462463)">
+		<ellipse id="egu6kZbeQl14" class="st0" cx="-449" cy="687.6" rx="324.7" ry="324.7"/>
+		<ellipse id="egu6kZbeQl15" class="st0" cx="1119.2" cy="687.6" rx="324.7" ry="324.7"/>
+		<g id="egu6kZbeQl16" transform="matrix(1 0 0 1 280.68 299.444)">
+			<g id="egu6kZbeQl17_to" transform="translate(0.000368,-0.000006)">
+				<g id="egu6kZbeQl17" transform="translate(-280.680368,-299.443994)">
+					<path id="egu6kZbeQl18" class="st1" d="M1449.1,687.6h154.7V434.7h-71.8V147.5c1.1-47.9-46.7-71.8-143.6-71.8s-312.2,0-646.1,0
+						L528.5-434.8H-778.7L-904.7,68.7"/>
+					<path id="egu6kZbeQl19" class="st1" d="M-769.2,721.9h-212.1V506.5h71.8V75.7h574.3c147.2,1.9,290.7,49.8,430.8,143.6
+						c0,0,167.5,0,502.5,0L741.8,75.7"/>
+					<path id="egu6kZbeQl110" class="st2" d="M-314.1-401.9V55.6"/>
+					<path id="egu6kZbeQl111" class="st3" d="M-124.3,687.6h918.8"/>
+					<path id="egu6kZbeQl112" class="st2" d="M86.9,375.4h213.8"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<path id="egu6kZbeQl113" class="st4" d="M-1300.3,983.7h3230.6"/>
+</g>
+</svg>

@@ -1,0 +1,387 @@
+/*Layout*/
+
+@media only screen and (min-width: 992px) {
+	.listing-item-car-condition:nth-child(2n+1) {
+		clear: both!important;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+	.widget-item input[type="text"]{
+		width: 64%;
+	}
+	.widget-item input[type="submit"]{
+		padding: 0 5px;
+	}
+	
+}
+
+
+/*Tablet Layout*/
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+	ul.main-menu li a{
+		padding: 20px 15px;
+	}
+	ul.main-menu li a {
+		font-size: 14px;
+	}
+	ul.main-menu li ul {
+		top: 60px;
+	}
+	ul.main-menu li ul li a{
+		padding: 12px 20px;
+	}
+	.widget-item input[type="text"]{
+		width: 88%;
+	}
+	.menu {
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+	}
+	.logo {
+		text-align: center;
+	}
+}
+
+
+/*mobail small layout*/
+
+@media only screen and (max-width:767px) {
+	.featured-photo .budget,{
+		position: absolute;
+	}
+	.featured-photo .budget {
+		background: #f6f7f9;
+		box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 36%);
+		-webki-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+		box-sizing: border-box;
+		color: white;
+		height: 56px;
+		left: -77px;
+		font-weight: bold;
+		font-size: 12px;
+		position: absolute;
+		text-transform: uppercase;
+		text-align: center;
+		top: -5px;
+		transform: rotate(-54deg);
+		-webkit-transform: rotate(-54deg);
+		-ms-transform: rotate(-54deg);
+		-moz-transform: rotate(-54deg);
+		-o-transform: rotate(-54deg);
+		width: 190px;
+		overflow: hidden
+	}
+	.featured-photo .budget .budget-mask {
+		background: var(--yellow);
+		padding-bottom: 10px;
+		padding-top: 26px;
+		transform: rotate(4deg);
+		-webkit-transform: rotate(4deg);
+		-ms-transform: rotate(4deg);
+	}
+	.budget-mask span {
+		text-shadow: 0px 2px 7px #000;
+	}
+	.top-header {
+		text-align: center;
+		display: none;
+	}
+	.menu-area .logo_block, .menu-area .container-fluid {
+		padding: 0 !important;
+	}
+	.menu-area .container-fluid .row{
+		margin: 0;
+	}
+	.featured-gallery.owl-carousel.m-3.owl-loaded.owl-drag {
+		margin-top: 48px !important;
+	}
+	.top-header-right {
+		float: none;
+	}
+	.top-header-right a {
+		display: block;
+		margin-left: 0;
+	}
+	.top-header-left p {
+		display: block;
+		margin-right: 0;
+		margin-top: 10px;
+	}
+	.menu {
+		display: none;
+	}
+	.slicknav_menu {
+		display: block;
+	}
+	.logo {
+		text-align: center;
+		padding: 5px 0;
+	}
+	.slider-item {
+		padding: 50px 0;
+	}
+	.slider-text h1 {
+		font-size: 28px;
+	}
+	.featured-area,
+	.testimonial-area,
+	.latest-news {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.headline h2 {
+		font-size: 25px;
+	}
+	.featured-gallery .owl-nav .owl-prev,
+	.featured-gallery .owl-nav .owl-next,
+	.latest-gallery .owl-nav .owl-prev,
+	.latest-gallery .owl-nav .owl-next {
+		top: -30px;
+	}
+	.newsletter-submit input[type="submit"] {
+		width: 25%;
+	}
+	.listing-price {
+		margin-top: 30px;
+	}
+	.listing-text h2 {
+		margin-top:15px;
+	}
+	.listing-photo {
+		height: 380px;
+	}
+	.testimonial-text h2, .testimonial-text h3{
+		text-align: center;
+	}
+	.owl-carousel .owl-item .testimonial-photo img{
+		margin:auto;
+	}
+	.menu-area .logo_block .skew-block{
+		display: none;
+	}
+	.grid_view .listing-item .listing-text {
+		padding: 0.5rem 3rem;
+	}
+	div.pagination{
+		overflow: auto;
+		white-space: nowrap;
+	}
+	.list_view .listing-photo{
+		max-width: 75%;
+	}
+	.list_view  .listing-text {
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	.list_view .listing-text h2{
+		min-width: 17rem;
+	}
+	.list_view a.view_icon {
+		right: 11px;
+		bottom: 0;
+		top: -51px;
+	}
+	.logo_block {
+		background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(233,233,233,1) 100%);
+	}
+	.car-main-tab {
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+
+}
+
+
+/*mobail large layout*/
+
+@media only screen and (min-width: 480px) and (max-width:767px) {
+	.slider-item {
+		padding: 85px 0;
+	}
+	.slider-text h1 {
+		font-size: 34px;
+	}
+	.featured-gallery .owl-nav .owl-prev,
+	.featured-gallery .owl-nav .owl-next {
+		top: -40px;
+	}
+	.car-detail-photo{
+		height: 370px;
+	}
+	.lightbox-item{
+		line-height: 370px;
+	}
+	
+}
+
+@media only screen and (max-width:540px){
+	.car-detail-photo{
+		height: 270px;
+	}
+	.lightbox-item{
+		line-height: 270px;
+	}
+	.car-main-tab li{
+		text-align: center;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 10px;
+	}
+	.single-gallery-carousel-content-box.owl-carousel.owl-theme.owl-loaded.owl-drag .owl-item {
+		max-width: 100%;
+		height: 300px;
+	}
+	.car_slider {
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width:435px){
+	.car-detail-photo{
+		height: 220px;
+	}
+	.lightbox-item{
+		line-height: 220px;
+	}
+}
+@media only screen and (min-width: 610px) and (max-width:767px){
+	/*Blog*/
+	.blog-page-area .col-xs-12{
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width:609px){
+	/*Blog*/
+	.blog-page-area .latest-item{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
+
+
+@media only screen and (min-width: 992px) {
+	.blog-item:nth-child(3n+1) {
+		clear: both;
+	}
+}
+
+@media only screen and (min-width: 610px) and (max-width: 991px) {
+	.blog-item:nth-child(2n+1) {
+		clear: both;
+	}
+}
+
+@media only screen and (max-width:500px){ 
+	.listing-text,
+	.listing-price {
+		width: 100%;
+	}
+	.listing-photo {
+		height: 250px;
+	}
+	.listing-price h2,
+	.listing-price a {
+		text-align: left;
+		float: none;
+	}
+
+}
+:root {
+	--yellow: #58595d;
+	--black: #000;
+	--white: #fff;
+	--grey: #ccc;
+	--dark-grey: #ddd;
+	--light-grey: #f2f2f2;
+}
+
+@media (min-width: 768px){
+	ul.main-menu{
+		float: left;
+		margin: 0;
+		margin-left: -5px;
+	}
+
+	ul.main-menu li {
+		float: left;
+		transition: 0.4s;
+		-webkit-transition: 0.4s;
+		-moz-transition: 0.4s;
+		-ms-transition: 0.4s;
+		position: relative;
+		display: block;
+		z-index: 2;
+	}
+
+	.main-menu li.active:before, .main-menu li.open:before, .main-menu li:before {
+		content: '';
+		background: rgba(0, 0, 0, 0.1);
+		height: 100%;
+		opacity: 0;
+		position: absolute;
+		transform: skewX(-18deg);
+		-webkit-transform: skewX(-18deg);
+		-moz-transform: skewX(-18deg);
+		-o-transform: skewX(-18deg);
+		-ms-transform: skewX(-18deg);
+		transition: 0.4s;
+		-webkit-transition: 0.4s;
+		-moz-transition: 0.4s;
+		-ms-transition: 0.4s;
+		width: 100%;
+		z-index: -1;
+	}
+	.main-menu li.active:before, .main-menu li:hover:before {
+		opacity: 1;
+	}
+	.mainmenu li>a {
+		font-weight: bold;
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+	.mainmenu li>a {
+		font-weight: bold;
+	}
+	.mainmenu li>a {
+		line-height: 42px;
+	}
+	.featured-photo .budget,{
+		position: absolute;
+	}
+	.featured-photo .budget {
+		background: #f6f7f9;
+		box-shadow: 0px 1px 5px 0px rgb(0 0 0 / 36%);
+		-webki-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.36);
+		box-sizing: border-box;
+		color: white;
+		height: 56px;
+		left: -77px;
+		font-weight: bold;
+		font-size: 12px;
+		position: absolute;
+		text-transform: uppercase;
+		text-align: center;
+		top: -5px;
+		transform: rotate(-54deg);
+		-webkit-transform: rotate(-54deg);
+		-ms-transform: rotate(-54deg);
+		-moz-transform: rotate(-54deg);
+		-o-transform: rotate(-54deg);
+		width: 190px;
+		overflow: hidden
+	}
+	.featured-photo .budget .budget-mask {
+		background: var(--yellow);
+		padding-bottom: 10px;
+		padding-top: 26px;
+		transform: rotate(4deg);
+		-webkit-transform: rotate(4deg);
+		-ms-transform: rotate(4deg);
+	}
+	.budget-mask span {
+		text-shadow: 0px 2px 7px #000;
+	}
+}
