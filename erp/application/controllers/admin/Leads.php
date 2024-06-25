@@ -1510,6 +1510,7 @@ class Leads extends AdminController
 		//echo "<pre>"; print_r($array);
 		echo json_encode(array("Status" => "Success", "Result" => $array), 200);
         exit();
+        
     }
 	
 	public function creditreport($id=''){
